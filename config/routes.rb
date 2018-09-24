@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   get '/users/:id/edit', to: 'users#edit'
 
   # 更新処理をするためのルーティング
-  patch '/user/:id', to: 'users#update'
+  patch '/users/:id', to: 'users#update'
 
   # 削除するためのルーティング
   delete '/users/:id', to: 'users#destroy'
